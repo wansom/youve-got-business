@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.5px;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* == SCROLL BAR == */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #050718;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fd3e45;
+}
+
+.home {
+  height: 100vh;
+  width: 100vw;
+  /* background-image: url(../images/background.png); */
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background: linear-gradient(#CFD6E6,#E7EFF9);
+}
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.content h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #050718;
+}
+.content button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 13px 221px;
+  gap: 10px;
+  width: 620px;
+  height: 50px;
+
+  background: #25518c;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  color: #fcfcfc;
+  border: none;
+}
+.content .socials {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #25518c;
+  height: 61px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height, or 150% */
+
+  color: #fcfcfc;
+  padding-left: 20px;
+}
